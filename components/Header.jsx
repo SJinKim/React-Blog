@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Link from 'next/link'
 
@@ -16,7 +16,7 @@ const Header = () => {
         <div className='md:float-left block'>
           <Link href='/'>
             <span className='cursor-pointer font-bold text-4xl text-white'>
-              GraphCMS
+              Personal Blog
             </span>
           </Link>
         </div>
