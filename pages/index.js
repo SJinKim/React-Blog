@@ -27,7 +27,6 @@ export default function Home({ posts }) {
 }
 
 //NEXT JS
-
 export async function getStaticProps() {
   const posts = (await getPosts()) || []
 
