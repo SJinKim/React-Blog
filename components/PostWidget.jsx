@@ -17,7 +17,7 @@ const PostWidget = ({ categories, slug }) => {
     }
   }, [slug])
 
-  console.log(relatedPosts)
+  console.log('this are related posts:', relatedPosts)
 
   return (
     <div className='bg-white shadow-lg rounded-lg p-8 mb-8'>
@@ -32,7 +32,7 @@ const PostWidget = ({ categories, slug }) => {
               height='60px'
               width='60px'
               className='align-middle rounded-full'
-              src={post.featured.url}
+              src={post.featuredImage.url}
             />
           </div>
           <div className='flex-grou ml-4'>
